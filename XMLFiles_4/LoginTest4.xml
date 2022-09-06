@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoginTest4Suite">
+<listeners>
+	<listener class-name="com.Framework_4.Listeners.ExtentListener"/>
+</listeners>
+
+  <test thread-count="5" name="LoginTest4">
+    <classes>
+      <class name="com.Framework_4.TestCases.LoginTest_4"/>
+    </classes>
+  </test> <!-- LoginTest4 -->
+</suite> <!-- LoginTest4Suite -->
